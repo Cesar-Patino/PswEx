@@ -5,21 +5,65 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="Modelo.*" %>
 <!DOCTYPE html>
 <html>
+    <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/estilo.css">
+        <link rel="shortcut icon" href="./IMG/icon.jpg" />
+        <link rel="stylesheet" href="./CSS/imagenes.css">
+
+
     </head>
     <body>
-        <table border="0" width="1000" align="center">
-            <tr bgcolor="">
-                <th><a href="">Principal</a></th>
-                <th><a href="">Registrar Producto</a></th>
-                <th><a href=""></a></th>
-                <th width="200"></th>
-            </tr>
-        </table>
-        <h2 align="center">Catalogo</h2> 
+            <header> 
+                <nav class="navegacion" style="width: 100%;">
+                    <ul class="menu"> 
+                        <li class="logo"><img src="./IMG/logo.png"></li>
+                        <li ><a href="index.html">Principal</a></li>
+                        <li ><a href="iniciars.html">Productos</a></li>
+                        <li><a href="iniciars.html">Registrarme</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+        
+        
+        <div class="container" >
+            <center><h2>Catalogo</h2>
+                <br>
+                <h3>Selecciona una promoción</h3>
+            </center>
+            
+            <br><br>
+            <table border="0" align="center" width="1000">
+                <%
+                    ArrayList<Producto> lista = PrductoBD.obtProd();
+                    int salto=0;
+                    for (Producto p : lista){
+                %>
+                <th><img src="img/<%=p.getImagen()%>" width="140" height="140"><p>
+                        <%=p.getNombre()%><br>
+                    <%=p.getPrecio%><p>
+                        <a href="">Modificar</a>
+                        <a href="">Añadir</a>
+                </th>
+                <%
+                    salto++;
+                    if(salto==2){
+                %>
+                <tr>
+                <%
+                    salto=0;
+                    }
+                }
+                %>
+            </table>
+        </div>
     </body>
 </html>
