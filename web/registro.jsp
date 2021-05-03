@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <link rel="stylesheet" href="./CSS/estilo.css">
-    <link rel="stylesheet" href="./CSS/iniciars.css">
+    <link rel="stylesheet" href="./CSS/registro.css">
         <title>JSP Page</title>
     </head>
     <body>
@@ -45,8 +45,8 @@
                     <input type="submit" value="Iniciar Sesion" >
                     <input type="reset" value="Borrar Registro" >
                 </form>
-                    <a class="enlace-cen" href="iniciars.jsp">¿no tienes cuenta? Presiona aquí</a>
-                    <a class="enlace-cen" href="registroa.jsp">inicio admin</a>
+                        <br><br>
+                    <a class="enlace-cen" href="registroa.jsp">Inicia sesion como administrador</a>
         </center>
     <div id="conteiner">
             

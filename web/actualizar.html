@@ -9,12 +9,32 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="./CSS/actu.css">
+          <link rel="stylesheet" href="./CSS/estilo.css">
+
+
     </head>
     <body>
+        <header> 
+        <nav class="navegacion" style="width: 100%;">
+            <ul class="menu"> 
+                <li class="logo">
+                    <img src="./IMG/logo.png">
+                </li>
+                <li >
+                    <a href="index.html">Cerrar Sesión</a>
+                </li>
+            
+            </ul>
+        </nav>
+    </header>
+        <br> 
+    <center><h1>Actualizar</h1></center>
         <form name="formulario" method="post" 
                       action="actualizar.jsp">
-                        <table>
+                        <table class="actualizar">
                             <tr>
+                                <td class="td_sup">Ingresa el ID</td>
                                 <td><input type="number" name="idactualizar"></td>
                             </tr>
                             <tr>
@@ -57,5 +77,25 @@ and open the template in the editor.
                     <input type="submit" value="Registro de Usuarios" >
                     <input type="reset" value="Borrar Registro" >
                 </form>
+       
+        <div id="footer">
+            <table class="pie">
+                <tr>
+                    <h4>Integrantes:</h4>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <h4>Chávez Patiño Cesar Uriel</h4>
+                </tr>
+                <tr></tr>
+                <tr>
+                <h4>Ramirez Aranda Dante Israel </h4>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <h4>Vilchis Cuevas Joaquin Ignacio </h4>
+                </tr>
+        </table>
+        </div>
     </body>
 </html>
