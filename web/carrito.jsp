@@ -9,7 +9,6 @@
 <%@page import="Modelo.*" %>
 <!DOCTYPE html>
 <html>
-    <html>
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
@@ -43,15 +42,15 @@
             <br><br>
             <table border="0" align="center" width="1000">
                 <%
-                    ArrayList<Producto> lista = PrductoBD.obtProd();
+                    ArrayList<Producto> lista = ProductoBD.obtProd();
                     int salto=0;
                     for (Producto p : lista){
                 %>
-                <th><img src="img/<%=p.getImagen()%>" width="140" height="140"><p>
-                        <%=p.getNombre()%><br>
+                <th><img src="IMG/<%=p.getImg()%>" width="140" height="140"><p>
+                        <%=p.getNom()%><br>
                     <%=p.getPrecio%><p>
                         <a href="">Modificar</a>
-                        <a href="">Añadir</a>
+                        <a href="añadirCarrito.jsp"id="<%=p.getId_prod%>">Añadir</a>
                 </th>
                 <%
                     salto++;

@@ -7,7 +7,7 @@ import Utils.Conexion;
 
 
 
-public class PrductoBD {
+public class ProductoBD {
     
     public static ArrayList<Producto>obtProd(){
         

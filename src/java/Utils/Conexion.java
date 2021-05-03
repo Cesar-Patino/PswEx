@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Utils;
 
-/**
- *
- * @author jigna
- */
+import java.sql.*;
 public class Conexion {
-
-    /**
-     * @param args the command line arguments
-     */
+    
+    public static Connection getConexion(){
+        Connection cn = null;
+        try{
+            Class.forName("");
+            cn = DriverManager.getConnection("", "root", "")
+        
+        System.out.println("Conexion Satisfactoria");
+        }   catch(Exception e){System.out.println("Error de conexion "+ e); }
+        return cn;
+    }
+ 
     public static void main(String[] args) {
-        // TODO code application logic here
+        Conexion.getConexion();
     }
     
 }
