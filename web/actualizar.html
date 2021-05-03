@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="formulario" method="post" 
+                      action="actualizar.jsp">
+                        <table>
+                            <tr>
+                                <td><input type="number" name="idactualizar"></td>
+                            </tr>
+                            <tr>
+                                <td class="td_sup">Nombre</td>
+                                <td class="td_inf"><input type="text" name="nomn"></td>
+                            </tr>
+                            <tr></tr>
+                             <tr>
+                                <td class="td_sup">Apellido paterno</td>
+                                <td class="td_inf"><input type="text" name="apn"></td>
+                            </tr>
+                            <tr></tr>
+                             <tr>
+                                <td class="td_sup">Apellido materno</td>
+                                <td class="td_inf"><input type="text" name="amn"></td>
+                            </tr>
+                            <tr></tr>
+                             <tr>
+                                <td class="td_sup">Edad</td>
+                                <td class="td_inf"><input type="number" min="1" max="99" size="2" name="edadn"></td>
+                            </tr>
+                            <tr></tr>
+                             <tr>
+                                <td class="td_sup">Fecha de nacimiento</td>
+                                <td class="td_inf"><input type="date" name="fechan"></td>
+                            </tr>
+                            <tr></tr>
+                             <tr>
+                                <td class="td_sup">Domicilio</td>
+                                <td class="td_inf"><input type="text" name="domicilion"></td>
+                            </tr>
+                            <tr></tr>
+                             <tr>
+                                <td class="td_sup">Celular</td>
+                                <td class="td_inf"><input type="tel" name="numeron" size="12"></td>
+                            </tr>
+                        </table>
+                            <br>
+                            
+                    <input type="submit" value="Registro de Usuarios" >
+                    <input type="reset" value="Borrar Registro" >
+                </form>
+    </body>
+</html>

@@ -36,8 +36,8 @@
                             </tr>
                             <tr></tr>
                              <tr>
-                                <td class="td_sup">edad</td>
-                                <td class="td_inf"><input type="num" size="2" min="1" max="99" name="edad"></td>
+                                <td class="td_sup">Password</td>
+                                <td class="td_inf"><input type="password" size="11"  name="pin"></td>
                             </tr>
                         </table>
                             <br>
@@ -46,8 +46,7 @@
                     <input type="reset" value="Borrar Registro" >
                 </form>
                     <a class="enlace-cen" href="iniciars.jsp">¿no tienes cuenta? Presiona aquí</a>
-                    <a class="enlace-cen" href="registroa.jsp">inicio admin</a>
-        </center>
+            </center>
     <div id="conteiner">
             
         
