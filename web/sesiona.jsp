@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <link rel="stylesheet" href="./CSS/estilo.css">
-    <link rel="stylesheet" href="./CSS/registro.css">
+    <link rel="stylesheet" href="./CSS/iniciars.css">
         <title>JSP Page</title>
     </head>
     <body>
@@ -36,8 +36,8 @@
                             </tr>
                             <tr></tr>
                              <tr>
-                                <td class="td_sup">edad</td>
-                                <td class="td_inf"><input type="num" size="2" min="1" max="99" name="edad"></td>
+                                <td class="td_sup">Password</td>
+                                <td class="td_inf"><input type="password" size="11"  name="pin"></td>
                             </tr>
                         </table>
                             <br>
@@ -45,9 +45,8 @@
                     <input type="submit" value="Iniciar Sesion" >
                     <input type="reset" value="Borrar Registro" >
                 </form>
-                        <br><br>
-                    <a class="enlace-cen" href="registroa.jsp">Inicia sesion como administrador</a>
-        </center>
+                    <a class="enlace-cen" href="iniciars.jsp">¿no tienes cuenta? Presiona aquí</a>
+            </center>
     <div id="conteiner">
             
         

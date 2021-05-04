@@ -19,10 +19,10 @@ body{
     background-color: #FFAEA5;
 
 }
-a{
+.enlace-cen{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #fff;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 600;
 }
 
