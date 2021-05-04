@@ -43,7 +43,6 @@ a{
 
 
 
-
 .navegacion ul{
     list-style: none;
 }
@@ -119,18 +118,8 @@ input{
     height: 250px;
 }
 
-body,html{ height:80%; margin:0;}
-    
-#conteiner{min-height:80%; }
- 
-#content {
-    width: 80px;
-    margin:0 auto;
-    position: relative;
-    background: #CCC;
-}
-
 #footer {
+
     width: auto;
     height: 100px;
     
@@ -144,4 +133,3 @@ body,html{ height:80%; margin:0;}
     border-top: 2px solid #000;
  
 }
-

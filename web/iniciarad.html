@@ -16,7 +16,7 @@
                     <ul class="menu"> 
                         <li align="center"class="logo"><img src="./IMG/logo.png"></li>
                         <li ><a href="index.html">Principal</a></li>
-                        <li ><a href="registro.jsp">Iniciar Sesión</a></li>
+                        <li><a href="iniciars.html"> Registro</a></li>
                     </ul>
                 </nav>
             </header>
@@ -35,7 +35,7 @@
                         <br><br>
 
                         <form name="formulario" method="post" 
-                      action="guardar.jsp">
+                      action="regisadmin.jsp">
                         <table>
                             <tr>
                                 <td class="td_sup">Nombre</td>
@@ -58,18 +58,13 @@
                             </tr>
                             <tr></tr>
                              <tr>
-                                <td class="td_sup">Fecha de nacimiento</td>
-                                <td class="td_inf"><input type="date" name="fecha"></td>
-                            </tr>
-                            <tr></tr>
-                             <tr>
                                 <td class="td_sup">Domicilio</td>
                                 <td class="td_inf"><input type="text" name="domicilio"></td>
                             </tr>
                             <tr></tr>
                              <tr>
-                                <td class="td_sup">Celular</td>
-                                <td class="td_inf"><input type="tel" name="numero" size="12"></td>
+                                <td class="td_sup">Contrsaña</td>
+                                <td class="td_inf"><input type="password" name="pin" size="12"></td>
                             </tr>
                         </table>
                             <br>
@@ -77,15 +72,8 @@
                     <input type="submit" value="Registro de Usuarios" >
                     <input type="reset" value="Borrar Registro" >
                 </form>
-                        <br><br>
-                        <table class="enlace-cen">
-                            <tr>
-                                <td><a href="registro.jsp">¿Tienes cuenta? Presiona aquí</a></td>
-                                <td></td>
-                                <td></td>
-                                <td><a href="iniciarad.html">Registrar Administrador</a></td>
-                            </tr>
-                        </table>
+                    <a class="enlace-cen" href="registro.jsp">¿Tienes cuenta? Presiona aquí</a>
+                    <a class="enlace-cen" href="regisadmin.jsp">registro admin</a>
             </center>
 
     <div id="conteiner">
