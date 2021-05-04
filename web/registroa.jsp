@@ -28,7 +28,7 @@
                         <br><br>
 
                         <form name="formulario" method="post" 
-                      action="validar.jsp">
+                      action="validara.jsp">
                         <table>
                             <tr>
                                 <td class="td_sup">Nombre</td>
@@ -36,8 +36,8 @@
                             </tr>
                             <tr></tr>
                              <tr>
-                                <td class="td_sup">edad</td>
-                                <td class="td_inf"><input type="num" size="2" min="1" max="99" name="edad"></td>
+                                <td class="td_sup">Password</td>
+                                <td class="td_inf"><input type="password" size="12"  name="pin"></td>
                             </tr>
                         </table>
                             <br>
@@ -46,7 +46,8 @@
                     <input type="reset" value="Borrar Registro" >
                 </form>
                         <br><br>
-                    <a class="enlace-cen" href="registroa.jsp">Inicia sesion como administrador</a>
+                    <a class="enlace-cen" href="iniciars.jsp">¿no tienes cuenta? Presiona aquí</a>
+                    <a class="enlace-cen" href="regisadmin.jsp">Registro admin</a>
         </center>
     <div id="conteiner">
             
@@ -79,3 +80,4 @@
         </div>
     </body>
 </html>
+
