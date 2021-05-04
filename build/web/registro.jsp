@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <link rel="stylesheet" href="./CSS/estilo.css">
-    <link rel="stylesheet" href="./CSS/iniciars.css">
+    <link rel="stylesheet" href="./CSS/registro.css">
         <title>JSP Page</title>
     </head>
     <body>
@@ -28,7 +28,7 @@
                         <br><br>
 
                         <form name="formulario" method="post" 
-                      action="Registro">
+                      action="validar.jsp">
                         <table>
                             <tr>
                                 <td class="td_sup">Nombre</td>
@@ -36,8 +36,8 @@
                             </tr>
                             <tr></tr>
                              <tr>
-                                <td class="td_sup">fecha de nacimiento</td>
-                                <td class="td_inf"><input type="date" name="fni"></td>
+                                <td class="td_sup">edad</td>
+                                <td class="td_inf"><input type="num" size="2" min="1" max="99" name="edad"></td>
                             </tr>
                         </table>
                             <br>
@@ -45,8 +45,9 @@
                     <input type="submit" value="Iniciar Sesion" >
                     <input type="reset" value="Borrar Registro" >
                 </form>
-                    <a class="enlace-cen" href="iniciars.jsp">¿no tienes cuenta? Presiona aquí</a>
-            </center>
+                        <br><br>
+                    <a class="enlace-cen" href="registroa.jsp">Inicia sesion como administrador</a>
+        </center>
     <div id="conteiner">
             
         
